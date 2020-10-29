@@ -1,0 +1,17 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css";
+
+body {
+    margin: 25% auto;
+    background-color:slategrey;
+    
+}
+p {
+     color: black;
+     font-size: 25px;
+     font-weight: bold;
+}
+.campo {
+    margin: 10px;
+    font-size: 20px;
+    color: gold;
+}

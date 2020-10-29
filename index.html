@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Robô que fala</title>
+</head>
+<body class="text-center" >
+    <div class="text">
+        <p class="textP">Bem-vindo ao Robô que ler texto, informe seu texto aqui em baixo  </p>
+
+    </div>
+    <div class ="campo" contenteditable
+    oninput="setText(event)">Seu Texto aqui </div>
+   <button onclick="speak()"
+ class="p-4 bg-purple-200 rounded shadow" >Falar</button>
+ <button onclick="stop()"  
+ class="p-4 bg-purple-700 text-white rounded shadow" >Parar</button>
+ <script src="index.js"></script>
+</body>
+</html>
